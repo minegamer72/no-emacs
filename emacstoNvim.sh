@@ -1,6 +1,6 @@
-alias emacs=vimToEmacs
+alias emacs=emacsToNvim
 
-vimToEmacs () {
+emacsToNvim () {
   printf 'Did you mean "nvim"? [Y/N]\n' 
   read yesno
 
